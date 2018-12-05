@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+header {
+	background-image: url(../images/bg22.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 40px 40px 150px 40px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+header h1 {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 2.8em;
+	line-height: 1.5em;
+}
+
+
+
+.logo {
+	position: absolute;
+	left: 10vw;
+	top: 40px;
+	width: 200px;
+}
+
+
+header ul {
+	float: right;
+	margin-right: 70px;
+}
+
+header li {
+	display: inline-block;
+	padding: 0 10px;
+	color: rgba(255,255,255,0.5);
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+.header-buttons {
+	margin: 50px 0;
+}
+
+
+.button {
+    margin: 0 20px;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+.blue {
+    background-color: #337ab7;
+}
+
+.green {
+	background-color: #5bb75b;
+}
+
+
+/*SECTION 1*/
+
+
+.section-1 {
+	text-align: center;
+	padding: 40px 20vw 0 20vw;
+}
+
+.section-1 h3 {
+	text-transform: uppercase;
+	font-weight: 2.5em;
+}
+
+.monos-cortados {
+	width: 600px;
+}
+
+
+
+/*SECTION 2*/
+
+.section-2 {
+	background-color: #f1f2f2;
+	text-align: center;
+	padding: 50px 20vw;
+	border-top: solid 1px #c4c4c4;
+	border-bottom: solid 1px #c4c4c4;
+}
+
+.section-2 h3 {
+	text-transform: uppercase;
+}
+
+.section-2 .button {
+	float: none;
+}
+
+
+
+
+/*SECTION 3*/
+
+.section-3 {
+	text-align: center;
+	margin: 60px 0 90px 0;
+}
+
+.section-3 a {
+	color: #337ab7;
+}
+
+.contacto {
+	display: inline-block;
+	text-align: left;
+	margin: 0 50px;
+}
+
+.subscribe {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin: 0 50px;
+}
+
+
+input {
+	padding: 8px 10px;
+	border: solid 1px #c4c4c4;
+	border-radius: 5px;
+}
+
+button {
+	border: solid 1px #c4c4c4;
+	padding: 8px 10px;
+	border-radius: 5px;
+	background: none;
+	color: #c9c9c9;
+}
+
+
+
+
+footer {
+	background-color: #1c1c1c;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+
+footer p {
+	text-transform: uppercase;
+	font-size: 1em;
+}
